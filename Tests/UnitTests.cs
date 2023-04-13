@@ -105,9 +105,9 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid_HESTER()
         {
-            Assert.AreEqual(2, Program.Power("10", "5"));
-            Assert.AreEqual(10, Program.Power("20","2"));
-            Assert.AreEqual(19, Program.Power("76","4"));
+            Assert.AreEqual(100, Program.Power("10", "2"));
+            Assert.AreEqual(125, Program.Power("5","3"));
+            Assert.AreEqual(16, Program.Power("2","4"));
         }
         
         [Test]
