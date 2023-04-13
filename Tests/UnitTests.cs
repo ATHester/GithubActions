@@ -33,7 +33,7 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid_HESTER()
         {
-            Assert.AreEqual(5, Program.Subtract("8", "5"));
+            Assert.AreEqual(3, Program.Subtract("8", "5"));
             Assert.AreEqual(11, Program.Subtract("18","7"));
             Assert.AreEqual(0, Program.Subtract("12","12"));
         }
